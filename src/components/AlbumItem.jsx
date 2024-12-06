@@ -4,6 +4,9 @@ const AlbumItem = (image,name,desc,id) => {
   return (
     <div>
       
+
+
+      
     </div>
   )
 }

@@ -117,26 +117,26 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "We Will Go",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Charlie Puth",
         duration:"3:00"
     },
     {
         id:1,
-        name: "Song Two",
+        name: "Senorita",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Shawn Mendes",
         duration:"2:20"
     },
     {
         id:2,
-        name: "Song Three",
+        name: "Let Me Love You",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Dj Snake",
         duration:"2:32"
     },
     {

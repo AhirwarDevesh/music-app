@@ -38,9 +38,15 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import darkside1 from './darkside1.jpg'
+import We_will_go from  './We_will_go.mp3'
+import Senorita from  './Senorita.mp3'
+import let_me_love_you from  './let_me_love_you.mp3'
+import cold from  './cold.mp3'
+import dance_monkey from  './dance_monkey.mp3'
+import love_me_like_you_do from  './love_me_like_you_do.mp3'
+import infinity from  './infinity.mp3'
+import darkside from './darkside.mp3'
 
 export const assets = {
     bell_icon,
@@ -119,7 +125,7 @@ export const songsData = [
         id:0,
         name: "We Will Go",
         image: img1,
-        file:song1,
+        file:We_will_go,
         desc:"Charlie Puth",
         duration:"3:00"
     },
@@ -127,7 +133,7 @@ export const songsData = [
         id:1,
         name: "Senorita",
         image: img2,
-        file:song2,
+        file:Senorita,
         desc:"Shawn Mendes",
         duration:"2:20"
     },
@@ -135,48 +141,48 @@ export const songsData = [
         id:2,
         name: "Let Me Love You",
         image: img3,
-        file:song3,
+        file:let_me_love_you,
         desc:"Dj Snake",
         duration:"2:32"
     },
     {
         id:3,
-        name: "Song Four",
+        name: "Cold",
         image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:cold,
+        desc:"NEFFEX",
         duration:"2:50"
     },
     {
         id:4,
-        name: "Song Five",
+        name: "Dance Monkey",
         image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        file:dance_monkey,
+        desc:"Tones and I",
         duration:"3:10"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Love Me Like You Do",
+        image: img6,
+        file:let_me_love_you,
+        desc:"Ellie Goulding",
         duration:"2:45"
     },
     {
         id:6,
-        name: "Song Seven",
+        name: "Infinity",
         image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        file:infinity,
+        desc:"Jaymes Young",
         duration:"2:18"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        name: "Dark Side",
+        image: darkside1,
+        file:darkside,
+        desc:"Alan Walker",
         duration:"2:35"
     }
 ]

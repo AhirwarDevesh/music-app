@@ -38,6 +38,8 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import hallofFame from './hallofFame.jpg'
+
 import darkside1 from './darkside1.jpg'
 import We_will_go from  './We_will_go.mp3'
 import Senorita from  './Senorita.mp3'
@@ -47,6 +49,7 @@ import dance_monkey from  './dance_monkey.mp3'
 import love_me_like_you_do from  './love_me_like_you_do.mp3'
 import infinity from  './infinity.mp3'
 import darkside from './darkside.mp3'
+import hallOfFame from './hallOfFame.mp3'
 
 export const assets = {
     bell_icon,
@@ -165,7 +168,7 @@ export const songsData = [
         id:5,
         name: "Love Me Like You Do",
         image: img6,
-        file:let_me_love_you,
+        file:love_me_like_you_do,
         desc:"Ellie Goulding",
         duration:"2:45"
     },
@@ -184,5 +187,15 @@ export const songsData = [
         file:darkside,
         desc:"Alan Walker",
         duration:"2:35"
+    },
+
+    {
+        id:8,
+        name: "Hall of Fame",
+        image: hallofFame,
+        file:hallOfFame,
+        desc:"will.i.am",
+        duration:"3.59"
+
     }
 ]

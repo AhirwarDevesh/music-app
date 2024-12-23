@@ -17,10 +17,7 @@ const Sidebar = () => {
                 <img className='w-9' src={assets.home_icon} alt="" />
                 <p className='font-bold'>Home</p>
             </div>
-            {/* <div className='flex ites-center gap-3 pl-8 cursor-pointer'>
-                <img className='w-6' src={assets.search_icon} alt="" />
-                <p className='font-bold'>Search</p>
-            </div> */}
+
         </div>
         <div className='bg-[#121212] h-[85%] rounded'>
             <div className='p-4 flex items-center justify-between'>
